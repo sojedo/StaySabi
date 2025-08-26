@@ -1,0 +1,8 @@
+:root{ --radius: 1.2rem; }
+.bg-gradient{
+  background: linear-gradient(135deg,#f8fafc,#e2e8f0);
+}
+.card{ border-radius: var(--radius); }
+.badge-soft{ background: #eef2ff; }
+.listing-card img{ border-top-left-radius: var(--radius); border-top-right-radius: var(--radius); }
+.score-pill{ font-weight:700; padding: .35rem .6rem; border-radius: 999px; background:#0d6efd12; }
